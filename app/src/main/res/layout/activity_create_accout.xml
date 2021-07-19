@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateAccoutActivity">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Chiều cao"
+        android:textSize="30sp"
+        android:textColor="@color/pink"
+        android:textStyle="italic"
+        android:id="@+id/tvChieuCao"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="30dp"
+        android:text="1.72"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:id="@+id/edchieucao"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Cân Nặng"
+        android:textSize="30sp"
+        android:textColor="@color/pink"
+        android:textStyle="italic"
+        android:id="@+id/tvCannang"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="30dp"
+        android:text="1.72"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:id="@+id/edcannang"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Muc tieu"
+        android:textSize="30sp"
+        android:textColor="@color/pink"
+        android:textStyle="italic"
+        android:id="@+id/tvMuctieu"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="30dp"
+        android:text="Tăng cân"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:id="@+id/spmuctieu"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Get Start"
+        android:background="@color/pink"
+        android:layout_gravity="center"
+        />
+
+
+
+</LinearLayout>

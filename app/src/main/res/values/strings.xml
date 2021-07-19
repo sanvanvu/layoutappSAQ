@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SAQDemo</string>
+    <string name="marginright">20dp</string>
+    <drawable name="marginright">20dp</drawable>
 </resources>
